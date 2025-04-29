@@ -22,14 +22,14 @@ const styles = StyleSheet.create({
   box: {
     flex: 1,
     width: "100%",
-    alignItems: 'center', 
-    justifyContent: 'center',
- 
+    backgroundColor: '#fff'
+    
   },
   title:{
-    flex:1,
-   
-    fontSize: 20
+    display: 'flex',
+    justifyContent: 'center',
+    fontSize: 20,
+    fontWeight: 'bold'
   },
   scroll:{
     width: "100%",
